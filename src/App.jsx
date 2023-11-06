@@ -17,12 +17,13 @@ function App() {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column' }}>
-      <h1>Passion for Dog Fashion</h1>
+      <h1>💛 🐶 Passion for Dog Fashion 🐶 💛</h1>
       <Tabs
+        TabIndicatorProps={{ style: { background: 'black' } }}
         value={value}
         onChange={handleChange}
         centered={true}
-        color="purple">
+        color="pink">
         <Tab
           value="Home"
           label="Home">
