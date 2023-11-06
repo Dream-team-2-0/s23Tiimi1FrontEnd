@@ -10,7 +10,7 @@ export default function Products() {
     useEffect(() => getProducts(), [])
 
     const getProducts = () => {
-        fetch('localhost:8080/api/products')
+        fetch('http://localhost:8080/api/products')
             .then(response => response.json())
             .then(responseData => {
                 setProducts(responseData);
