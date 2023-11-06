@@ -7,19 +7,6 @@ export default function Products() {
 
     const [products, setProducts] = useState([]);
 
-    useEffect(() => getProducts(), [])
-
-    const getProducts = () => {
-        fetch('http://localhost:8080/api/products')
-            .then(response => response.json())
-            .then(responseData => {
-                setProducts(responseData);
-                console.log(responseData)
-            })
-            .catch(error => {
-                console.log(error)
-            })
-    }
     const columns = [
         { field: 'type' },
         { field: 'name' },
@@ -27,6 +14,22 @@ export default function Products() {
         { field: 'price' },
         { field: 'manufacturer' }
     ];
+
+    const REST_URL = 'http://localhost:8080/rest/dogClothings';
+
+    useEffect(() => getProducts(), []);
+
+    const getProducts = () => {
+        fetch(REST_URL)
+            .then(response => response.json())
+            .then(responseData => {
+                console.log("responseData" + responseData)
+                setProducts(responseData)
+            })
+            .catch(error => {
+                console.log(error)
+            })
+    };
 
     return (
         <div className="ag-theme-material"
