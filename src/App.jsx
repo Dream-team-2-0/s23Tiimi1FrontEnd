@@ -16,8 +16,7 @@ function App() {
   }
 
   return (
-    <div className="center"
-    >
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column' }}>
       <h1>Passion for Dog Fashion</h1>
       <Tabs
         value={value}
