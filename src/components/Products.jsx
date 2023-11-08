@@ -8,11 +8,11 @@ export default function Products() {
     const [products, setProducts] = useState([]);
 
     const columns = [
-        { field: 'type' },
-        { field: 'name' },
-        { field: 'colour' },
-        { field: 'price' },
-        { field: 'manufacturer' }
+        { field: 'type', headerName: 'Type' },
+        { field: 'name', headerName: 'Name' },
+        { field: 'colour', headerName: 'Colour' },
+        { field: 'price', headerName: 'Price' },
+        { field: 'manufacturer.manufacturerName', headerName: 'Manufacturer' }
     ];
 
     const REST_URL = 'http://localhost:8080/rest/dogClothings';
