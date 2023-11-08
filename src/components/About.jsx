@@ -9,7 +9,7 @@ export default function About() {
         Passion for Dog Fashion on vuonna 2023 perustettu koiranvaateyritys. Missionamme on tuoda kaikki tyylikkäimmät koiran vaatteet,
         asusteet ja tarvikkeet helposti asiakkaan saataville yhteen paikkaan.
         Haluamme varmistaa, että jokainen karvainen ystävämme voi tuntea olonsa mukavaksi näyttäen samalla upealta.
-        Passion forDog Fashionin valikoima koostuu monipuolisesta tarjonnasta koiranvaatteita, kuten takkeja, sukkia, hattuja ja koiranpetejä,
+        Passion for Dog Fashionin valikoima koostuu monipuolisesta tarjonnasta koiranvaatteita, kuten takkeja, sukkia, hattuja ja koiranpetejä,
         jotka on valikoitu verkkokauppaamme sekä koiran että omistajan tyylikkyyttä ja trendikkyyttä silmällä pitäen.
         Vaatteemme on valmistettu laadukkaista ja kestävistä materiaaleista, jotka ovat myös mukavia koiran päällä.
         Ne suojaavat koiraa sään vaihteluilta, tarjoavat lämpöä kylminä päivinä ja lisäävät samalla koirasi yleistä viehätysvoimaa. Myös muut
@@ -22,8 +22,7 @@ export default function About() {
           <th>Omistajat: </th>
         </tr>
         <tr>
-          <td>Omppu</td>
-          <td>Rane</td>
+          <td>Minna P.</td>
         </tr>
       </table>
       <br />
