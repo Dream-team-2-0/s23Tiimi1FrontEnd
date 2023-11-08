@@ -2,7 +2,7 @@
 export default function About() {
 
   return (
-    <div style={{ paddingLeft: '15%', paddingRight: '15%', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh', flexDirection: 'column' }}>
+    <div style={{ paddingLeft: '15%', paddingRight: '15%', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '70vh', flexDirection: 'column' }}>
       <h1>About us </h1>
 
       <p>
@@ -19,16 +19,11 @@ export default function About() {
       <p> Y-Tunnus: 1122334-1</p>
       <table>
         <tr>
-          <th></th>
-          <th></th>
           <th>Omistajat: </th>
         </tr>
         <tr>
-          <td> M. Aaltonen </td>
-          <td>  O. Hallenberg </td>
-          <td>  A. Hirsimäki </td>
-          <td>  E. Hokkanen </td>
-          <td>  A. Hyppönen </td>
+          <td>Omppu</td>
+          <td>Rane</td>
         </tr>
       </table>
       <br />
