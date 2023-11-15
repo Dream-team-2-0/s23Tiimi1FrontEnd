@@ -33,7 +33,7 @@ export default function Products() {
 
     return (
         <div className="ag-theme-material"
-            style={{ height: '700px', width: '70%', margin: 'auto' }}>
+            style={{ height: '700px', width: '75%', margin: 'auto' }}>
             <AgGridReact
                 rowData={products}
                 columnDefs={columns}
