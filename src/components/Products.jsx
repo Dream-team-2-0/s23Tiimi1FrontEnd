@@ -8,11 +8,11 @@ export default function Products() {
     const [products, setProducts] = useState([]);
 
     const columns = [
-        { field: 'type', headerName: 'Type' },
-        { field: 'name', headerName: 'Name' },
-        { field: 'colour', headerName: 'Colour' },
-        { field: 'price', headerName: 'Price' },
-        { field: 'manufacturer.manufacturerName', headerName: 'Manufacturer' }
+        { field: 'type', headerName: 'Type', sortable: true, filter: true },
+        { field: 'name', headerName: 'Name', sortable: true, filter: true },
+        { field: 'colour', headerName: 'Colour', sortable: true, filter: true },
+        { field: 'price', headerName: 'Price', sortable: true, filter: true },
+        { field: 'manufacturer.manufacturerName', headerName: 'Manufacturer', sortable: true, filter: true}
     ];
 
     const REST_URL = 'http://localhost:8080/rest/products';
