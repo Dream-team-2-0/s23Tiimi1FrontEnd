@@ -15,7 +15,7 @@ export default function Products() {
         { field: 'manufacturer.manufacturerName', headerName: 'Manufacturer' }
     ];
 
-    const REST_URL = 'http://localhost:8080/rest/dogClothings';
+    const REST_URL = 'http://localhost:8080/rest/products';
 
     useEffect(() => getProducts(), []);
 
