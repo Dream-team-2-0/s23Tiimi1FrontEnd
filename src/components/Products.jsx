@@ -12,7 +12,7 @@ export default function Products() {
         { field: 'name', headerName: 'Name', sortable: true, filter: true },
         { field: 'colour', headerName: 'Colour', sortable: true, filter: true },
         { field: 'price', headerName: 'Price', sortable: true, filter: true },
-        { field: 'manufacturer.manufacturerName', headerName: 'Manufacturer', sortable: true, filter: true}
+        { field: 'manufacturer.manufacturerName', headerName: 'Manufacturer', sortable: true, filter: true }
     ];
 
     const REST_URL = 'http://localhost:8080/rest/products';
@@ -33,7 +33,7 @@ export default function Products() {
 
     return (
         <div className="ag-theme-material"
-            style={{ height: '700px', width: '95%', margin: 'auto' }}>
+            style={{ height: '700px', width: '70%', margin: 'auto' }}>
             <AgGridReact
                 rowData={products}
                 columnDefs={columns}
