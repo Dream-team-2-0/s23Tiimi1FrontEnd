@@ -8,7 +8,7 @@ export default function Products() {
     const [products, setProducts] = useState([]);
 
     const columns = [
-        { field: 'type', headerName: 'Type', sortable: true, filter: true },
+        { field: 'type.typeName', headerName: 'Type', sortable: true, filter: true },
         { field: 'name', headerName: 'Name', sortable: true, filter: true },
         { field: 'colour', headerName: 'Colour', sortable: true, filter: true },
         { field: 'price', headerName: 'Price', sortable: true, filter: true },
@@ -33,7 +33,7 @@ export default function Products() {
 
     return (
         <div className="ag-theme-material"
-            style={{ height: '700px', width: '75%', margin: 'auto' }}>
+            style={{ height: '700px', width: '85%', margin: 'auto' }}>
             <AgGridReact
                 rowData={products}
                 columnDefs={columns}
