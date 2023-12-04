@@ -15,7 +15,7 @@ export default function Products() {
         { field: 'manufacturer.manufacturerName', headerName: 'Manufacturer', sortable: true, filter: true }
     ];
 
-    const REST_URL = 'http://localhost:8080/rest/products';
+    const REST_URL = 'https://dogbackenddatabase.onrender.com/rest/products';
 
     useEffect(() => getProducts(), []);
 
